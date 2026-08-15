@@ -1,0 +1,4 @@
+model,val_recall_churn,val_precision_churn,val_f1_churn,val_roc_auc,train_seconds
+logistic_regression_balanced,0.7451,0.399,0.5197,0.7938,0.024
+random_forest_balanced,0.7157,0.5692,0.6341,0.8732,1.663
+dummy_baseline,0.0,0.0,0.0,0.5,0.014
