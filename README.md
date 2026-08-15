@@ -108,6 +108,14 @@ Or open the notebooks directly — all three already contain executed outputs:
 - `notebooks/02_demo.ipynb` — step-by-step walkthrough of the pipeline (validate → preprocess → predict) plus a visual risk gauge
 - `notebooks/03_churn_insights.ipynb` — churn rate broken down by age, tenure, balance, credit score, activity, and geography, plus which features the trained model relies on most
 
+Prefer plain Python over Jupyter? `notebooks/scripts/` has a standalone `.py` version of each notebook (auto-converted, headless-safe, no Jupyter required):
+```bash
+cd notebooks/scripts
+python 01_eda.py
+python 02_demo.py
+python 03_churn_insights.py
+```
+
 ## Using the model on a new customer
 
 ```python
